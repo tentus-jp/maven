@@ -1,3 +1,6 @@
 [submodule "commons"]
 	path = commons
 	url = https://github.com/tentus-jp/java-commons.git
+[submodule "mix-spring4"]
+	path = mix-spring4
+	url = https://github.com/tentus-jp/java-mix-spring4.git
