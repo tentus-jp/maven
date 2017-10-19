@@ -53,6 +53,20 @@ project(':mix-spring4') {
     }
 }
 
+project(':spring4') {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId 'jp.tentus'
+                artifactId 'spring4'
+                version '1.0'
+
+                from components.java
+            }
+        }
+    }
+}
+
 project(':validators') {
     publishing {
         publications {

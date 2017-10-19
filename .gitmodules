@@ -7,3 +7,6 @@
 [submodule "validators"]
 	path = validators
 	url = https://github.com/tentus-jp/java-validators.git
+[submodule "spring4"]
+	path = spring4
+	url = https://github.com/tentus-jp/java-spring4.git
