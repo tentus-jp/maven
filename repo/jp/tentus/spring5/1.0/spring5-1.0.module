@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.tentus",
+    "module": "spring5",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring5-1.0.jar",
+          "url": "spring5-1.0.jar",
+          "size": 2168,
+          "sha512": "69a1f0a8d0a4293433278320cc019c51ed710aba200d9d2c2f69e6f5ae8baed1b31375c609f76eb6c36bb76a791686306a274fd5a5e75c82ded0fb63aa04c08c",
+          "sha256": "b16d0853b6c0246df562efe9f1de7f55ac242590b88984f8bef6d7dd790f520d",
+          "sha1": "f31e1629f88ef0ced634adad126e7e90bdfeabe1",
+          "md5": "31c722176d3381599f3cc9c3f1d8ead4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.14"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.14"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons",
+          "version": {
+            "requires": "2.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring5-1.0.jar",
+          "url": "spring5-1.0.jar",
+          "size": 2168,
+          "sha512": "69a1f0a8d0a4293433278320cc019c51ed710aba200d9d2c2f69e6f5ae8baed1b31375c609f76eb6c36bb76a791686306a274fd5a5e75c82ded0fb63aa04c08c",
+          "sha256": "b16d0853b6c0246df562efe9f1de7f55ac242590b88984f8bef6d7dd790f520d",
+          "sha1": "f31e1629f88ef0ced634adad126e7e90bdfeabe1",
+          "md5": "31c722176d3381599f3cc9c3f1d8ead4"
+        }
+      ]
+    }
+  ]
+}

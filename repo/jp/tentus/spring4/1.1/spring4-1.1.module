@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.tentus",
+    "module": "spring4",
+    "version": "1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring4-1.1.jar",
+          "url": "spring4-1.1.jar",
+          "size": 2065,
+          "sha512": "475b1fbe0669e30bc7294b8cd0938db8b586d0406b9aeebbbe38fea6368e44ccc973b5ac17c2f98e0f26c6b21b00ce51cbb0ff1c9a294a23c9eaa90baa4c9201",
+          "sha256": "bf50e1dce7d5e2069fe79161e69599920795e2b5fbc839940b1504d86866f6c3",
+          "sha1": "e2daef252cca90fb45b54ba35a665092cc060684",
+          "md5": "580865938e04b370720fecffadf58bb0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "4.3.10.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "4.3.10.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons",
+          "version": {
+            "requires": "1.13.6.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring4-1.1.jar",
+          "url": "spring4-1.1.jar",
+          "size": 2065,
+          "sha512": "475b1fbe0669e30bc7294b8cd0938db8b586d0406b9aeebbbe38fea6368e44ccc973b5ac17c2f98e0f26c6b21b00ce51cbb0ff1c9a294a23c9eaa90baa4c9201",
+          "sha256": "bf50e1dce7d5e2069fe79161e69599920795e2b5fbc839940b1504d86866f6c3",
+          "sha1": "e2daef252cca90fb45b54ba35a665092cc060684",
+          "md5": "580865938e04b370720fecffadf58bb0"
+        }
+      ]
+    }
+  ]
+}

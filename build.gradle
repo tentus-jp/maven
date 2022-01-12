@@ -45,7 +45,21 @@ project(':mix-spring4') {
             maven(MavenPublication) {
                 groupId 'jp.tentus'
                 artifactId 'mix-spring4'
-                version '1.1'
+                version '1.2'
+
+                from components.java
+            }
+        }
+    }
+}
+
+project(':mix-spring5') {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId 'jp.tentus'
+                artifactId 'mix-spring5'
+                version '1.0'
 
                 from components.java
             }
@@ -59,6 +73,20 @@ project(':spring4') {
             maven(MavenPublication) {
                 groupId 'jp.tentus'
                 artifactId 'spring4'
+                version '1.1'
+
+                from components.java
+            }
+        }
+    }
+}
+
+project(':spring5') {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId 'jp.tentus'
+                artifactId 'spring5'
                 version '1.0'
 
                 from components.java
@@ -73,7 +101,7 @@ project(':validators') {
             maven(MavenPublication) {
                 groupId 'jp.tentus'
                 artifactId 'validators'
-                version '1.0.2'
+                version '1.0.3'
 
                 from components.java
             }

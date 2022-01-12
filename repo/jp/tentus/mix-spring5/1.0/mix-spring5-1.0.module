@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.tentus",
+    "module": "mix-spring5",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mix-spring5-1.0.jar",
+          "url": "mix-spring5-1.0.jar",
+          "size": 5794,
+          "sha512": "718de34f247e00662a857d67d92a13ee4acb26415d11bf2a01260e25b3b6d2c6bb35c9a6a9f490fa9b5cb362760ab24dbee53af21d495b37d812d913d05ff3d8",
+          "sha256": "360ae27a76123813ec7ba63706458d057e16f55d3a11776f64ebf2ee4558d126",
+          "sha1": "627dbafd1dee19aa8c1b69ea2ec3a96a03712ee4",
+          "md5": "ff712ae4493642428112be080ef078fc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.14"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.14"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "2.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mix-spring5-1.0.jar",
+          "url": "mix-spring5-1.0.jar",
+          "size": 5794,
+          "sha512": "718de34f247e00662a857d67d92a13ee4acb26415d11bf2a01260e25b3b6d2c6bb35c9a6a9f490fa9b5cb362760ab24dbee53af21d495b37d812d913d05ff3d8",
+          "sha256": "360ae27a76123813ec7ba63706458d057e16f55d3a11776f64ebf2ee4558d126",
+          "sha1": "627dbafd1dee19aa8c1b69ea2ec3a96a03712ee4",
+          "md5": "ff712ae4493642428112be080ef078fc"
+        }
+      ]
+    }
+  ]
+}

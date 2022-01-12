@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.tentus",
+    "module": "mix-spring4",
+    "version": "1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mix-spring4-1.2.jar",
+          "url": "mix-spring4-1.2.jar",
+          "size": 5706,
+          "sha512": "887ee892e77858891e54c296955173d546b4f8f9d5854bb8d6871a085f186ba78b64edd1c593547f27e80356decbd23300ded9131c461626953412c8f96c322d",
+          "sha256": "9f38dcc240431f1a7799eaf3562d7da4b5af9aa455bb5bc95f1d8adfaa771bff",
+          "sha1": "42f377e056149036f2afa3803d560dae212415c4",
+          "md5": "c001246ffb3cd35f0e98190ce4b6e182"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "4.3.10.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "4.3.10.RELEASE"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot",
+          "version": {
+            "requires": "1.5.6.RELEASE"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mix-spring4-1.2.jar",
+          "url": "mix-spring4-1.2.jar",
+          "size": 5706,
+          "sha512": "887ee892e77858891e54c296955173d546b4f8f9d5854bb8d6871a085f186ba78b64edd1c593547f27e80356decbd23300ded9131c461626953412c8f96c322d",
+          "sha256": "9f38dcc240431f1a7799eaf3562d7da4b5af9aa455bb5bc95f1d8adfaa771bff",
+          "sha1": "42f377e056149036f2afa3803d560dae212415c4",
+          "md5": "c001246ffb3cd35f0e98190ce4b6e182"
+        }
+      ]
+    }
+  ]
+}
